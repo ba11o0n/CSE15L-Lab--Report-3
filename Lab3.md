@@ -22,11 +22,11 @@ Output:
 Definition: Finding matches for the expected word in either lower/upper case 
 Apply It 1: `$ grep -i "Not" stringsearch-data/technical/plos/pmed.0020191.txt'
 Output: 
-<img src="not.png" width="700" height="600"/>
+<img src="not.png" width="400" height="300"/>
 
 Apply It 2:`$ grep -v "Familt" stringsearch-data/technical/plos/pmed.0020191.txt`
 Output: 
-<img src="family.png" width="700" height="600"/>
+<img src="family.png" width="400" height="300"/>
 
 ### **grep -n**
 Definition: This command gives the output of the lines with matched words and the line number associated with it.
@@ -45,4 +45,4 @@ Output:
 <img src="examiners.png" width="700" height="600"/>
 
 Apply It 2: grep -r "Jordan Paradise" stringsearch-data/technical
-Output: <img src="paradise.png" width="700" height="600"/>
+Output: <img src="paradise.png" width="300" height="400"/>
