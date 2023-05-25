@@ -34,11 +34,11 @@ Output:
 Definition: This command gives the output of the lines with matched words and the line number associated with it.
 Apply It 1: `$ grep -n "Constructing" stringsearch-data/technical/plos/pmed.0020191.txt`
 Output: 
-<img src="constructing.png" width="700" height="600"/>
+<img src="constructing.png" width="400" height="300"/>
 
 Apply It 2: `$ grep -n "colleagues" stringsearch-data/technical/plos/pmed.0020191.txt`
 Output: 
-<img src="colleagues.png" width="700" height="600"/>
+<img src="colleagues.png" width="400" height="300"/>
 
 ### **grep -r**
 Definition: In the directories, -r enables grep to recursively search files
