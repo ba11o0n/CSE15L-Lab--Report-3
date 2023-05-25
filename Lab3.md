@@ -23,22 +23,22 @@ Definition: Finding matches for the expected word in either lower/upper case
 Apply It 1: `$ grep -i "Not" stringsearch-data/technical/plos/pmed.0020191.txt'
 
 Output: 
-<img src="not.png" width="450" height="200"/>
+<img src="not.png" width="550" height="200"/>
 
 Apply It 2:`$ grep -v "Familt" stringsearch-data/technical/plos/pmed.0020191.txt`
 
 Output: 
-<img src="family.png" width="450" height="200"/>
+<img src="family.png" width="550" height="200"/>
 
 ### **grep -n**
 Definition: This command gives the output of the lines with matched words and the line number associated with it.
 Apply It 1: `$ grep -n "Constructing" stringsearch-data/technical/plos/pmed.0020191.txt`
 Output: 
-<img src="constructing.png" width="400" height="110"/>
+<img src="constructing.png" width="600" height="110"/>
 
 Apply It 2: `$ grep -n "colleagues" stringsearch-data/technical/plos/pmed.0020191.txt`
 Output: 
-<img src="colleagues.png" width="400" height="110"/>
+<img src="colleagues.png" width="600" height="110"/>
 
 ### **grep -r**
 Definition: In the directories, -r enables grep to recursively search files
@@ -47,4 +47,4 @@ Output:
 <img src="examiners.png" width="700" height="600"/>
 
 Apply It 2: grep -r "Jordan Paradise" stringsearch-data/technical
-Output: <img src="paradise.png" width="450" height="110"/>
+Output: <img src="paradise.png" width="600" height="110"/>
